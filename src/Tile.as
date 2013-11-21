@@ -15,7 +15,7 @@ package
 		public function Tile() 
 		{
 			addChild(firstTile);
-			TileID = Math.random() * 4+1;
+			TileID = Math.random() * 4.15+1;
 			
 			switch(TileID)
 			{
@@ -35,11 +35,11 @@ package
 					gotoAndStop(5);
 					TileID = 4;
 				break;
-				/*
 				case 5:
-					gotoAndStop(5);
+					gotoAndStop(6);
 					TileID = 5;
 				break;
+				/*
 				case 6:
 					gotoAndStop(6);
 					TileID = 6;
