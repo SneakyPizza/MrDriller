@@ -2,6 +2,7 @@ package
 {
 	import flash.display.Sprite;
 	import flash.events.Event;
+	import TileSystem;
 	
 	/**
 	 * ...
@@ -9,6 +10,7 @@ package
 	 */
 	public class Main extends Sprite 
 	{
+		private		var	tileSys:TileSystem = new TileSystem();
 		
 		public function Main():void 
 		{
@@ -20,6 +22,7 @@ package
 		{
 			removeEventListener(Event.ADDED_TO_STAGE, init);
 			// entry point
+			addChild(tileSys);
 		}
 		
 	}
