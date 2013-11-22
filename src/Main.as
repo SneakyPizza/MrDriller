@@ -9,9 +9,11 @@ package
 	 */
 	public class Main extends Sprite 
 	{
-		
+	
+		private var player:Player = new Player();
 		public function Main():void 
 		{
+			addChild(player);
 			if (stage) init();
 			else addEventListener(Event.ADDED_TO_STAGE, init);
 		}
