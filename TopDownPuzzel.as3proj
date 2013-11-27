@@ -1,21 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<project version="2">
+<?xml version="1.0" encoding="utf-8"?>
+<project>
   <!-- Output SWF options -->
   <output>
-    <movie outputType="Application" />
+    <movie disabled="False" />
     <movie input="" />
-    <movie path="bin\MrDriller.swf" />
+    <movie path="bin/TopDownPuzzel.swf" />
     <movie fps="30" />
-<<<<<<< HEAD
     <movie width="800" />
     <movie height="600" />
-=======
-    <movie width="700" />
-    <movie height="700" />
->>>>>>> 73f5fd812d6625a50ad055d21b0d1741f1678197
-    <movie version="10" />
-    <movie minorVersion="1" />
-    <movie platform="Flash Player" />
+    <movie version="11" />
+    <movie minorVersion="0" />
     <movie background="#FFFFFF" />
   </output>
   <!-- Other classes to be compiled into your SWF -->
@@ -25,17 +19,13 @@
   <!-- Build options -->
   <build>
     <option accessible="False" />
-    <option advancedTelemetry="False" />
     <option allowSourcePathOverlap="False" />
     <option benchmark="False" />
     <option es="False" />
-    <option locale="" />
     <option loadConfig="" />
     <option optimize="True" />
-    <option omitTraces="True" />
     <option showActionScriptWarnings="True" />
     <option showBindingWarnings="True" />
-    <option showInvalidCSS="True" />
     <option showDeprecationWarnings="True" />
     <option showUnusedTypeSelectorWarnings="True" />
     <option strict="True" />
@@ -43,41 +33,10 @@
     <option useResourceBundleMetadata="True" />
     <option warnings="True" />
     <option verboseStackTraces="False" />
-    <option linkReport="" />
-    <option loadExterns="" />
     <option staticLinkRSL="True" />
     <option additional="" />
-    <option compilerConstants="" />
-    <option minorVersion="" />
+    <option customSDK="" />
   </build>
-  <!-- SWC Include Libraries -->
-  <includeLibraries>
-    <!-- example: <element path="..." /> -->
-  </includeLibraries>
-  <!-- SWC Libraries -->
-  <libraryPaths>
-<<<<<<< HEAD
-    <element path="lib\piet.swc" />
-=======
-    <!-- example: <element path="..." /> -->
->>>>>>> 73f5fd812d6625a50ad055d21b0d1741f1678197
-  </libraryPaths>
-  <!-- External Libraries -->
-  <externalLibraryPaths>
-    <!-- example: <element path="..." /> -->
-  </externalLibraryPaths>
-  <!-- Runtime Shared Libraries -->
-  <rslPaths>
-    <!-- example: <element path="..." /> -->
-  </rslPaths>
-  <!-- Intrinsic Libraries -->
-  <intrinsics>
-    <!-- example: <element path="..." /> -->
-  </intrinsics>
-  <!-- Assets to embed into the output SWF -->
-  <library>
-    <!-- example: <asset path="..." id="..." update="..." glyphs="..." mode="..." place="..." sharepoint="..." /> -->
-  </library>
   <!-- Class files to compile (other referenced classes will automatically be included) -->
   <compileTargets>
     <compile path="src\Main.as" />
@@ -95,6 +54,4 @@
     <option showHiddenPaths="False" />
     <option testMovie="Default" />
   </options>
-  <!-- Plugin storage -->
-  <storage />
 </project>
